@@ -2,6 +2,9 @@ from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 import secrets
 import time
+import urllib.request
+import random
+import os
 
 class Mangadex:
     def __init__(self, path):
@@ -41,3 +44,24 @@ class Mangadex:
         # clik the first manga when the name is similar with manga parameter
         search = self.driver.find_element_by_xpath('//*[@id="content"]/div[4]/div/div[1]/a/img')
         search.click()
+        # getting the last page
+        search = self.driver.find_element_by_xpath('//*[@id="content"]/div[3]/nav/ul/li[4]/a/span')
+        search.click()
+
+        # Getting manga
+        search = self.driver.find_element_by_xpath('//*[@id="content"]/div[3]/div/div[2]/div/div/div[2]/a')
+        search.click()
+    def download(self, path):
+        time.sleep(4)
+        title = random.randint(11111111, 99999999)
+        count = 0
+        os.chdir(path)
+        os.mkdir(str(title))
+        while True:
+            time.sleep(1)
+            download = self.driver.find_element_by_xpath('//*[@id="content"]/div[2]/div[2]/div/img').get_attribute('src')
+            print(download)
+            urllib.request.urlretrieve(download, str(title) + '/' + str(count) + '.jpg')
+            nextpage = self.driver.find_element_by_xpath('//*[@id="content"]/div[1]/div/div[2]/div[8]/a[2]/span')
+            nextpage.click()
+            count +=1
