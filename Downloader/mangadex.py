@@ -58,7 +58,7 @@ class Mangadex:
         os.chdir(path)
         os.mkdir(str(title))
         while True:
-            time.sleep(1)
+            time.sleep(2)
             download = self.driver.find_element_by_xpath('//*[@id="content"]/div[2]/div[2]/div/img').get_attribute('src')
             print(download)
             urllib.request.urlretrieve(download, str(title) + '/' + str(count) + '.jpg')
