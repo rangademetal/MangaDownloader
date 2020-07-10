@@ -15,7 +15,7 @@ class Downloader:
         self.driver.get('https://nhentai.net/')
         self.driver.maximize_window()
 
-    def randomStory(self):
+    def randomStoryEng(self):
         random = self.driver.find_element_by_xpath('/html/body/nav/div/ul[1]/li[1]/a')
         random.click()
         eng = 'translated\n109K\nenglish\n69K'
@@ -31,6 +31,9 @@ class Downloader:
             else:
                 random = self.driver.find_element_by_xpath('/html/body/nav/div/ul[1]/li[1]/a')
                 random.click()
+    def randomStory(self):
+        random = self.driver.find_element_by_xpath('/html/body/nav/div/ul[1]/li[1]/a')
+        random.click()
 
     def getImage(self):
         title = random.randint(11111111,99999999)
