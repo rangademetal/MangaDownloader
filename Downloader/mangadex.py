@@ -15,6 +15,7 @@ class Mangadex:
     def getPageMangadex(self):
         self.driver.get('https://mangadex.org/')
         self.driver.maximize_window()
+
     # serching manga
     def login(self):
         login = self.driver.find_element_by_xpath('//*[@id="navbarSupportedContent"]/ul[2]/li[2]/a')
@@ -30,6 +31,7 @@ class Mangadex:
         login.send_keys('guest123qwe')
         login = self.driver.find_element_by_xpath('//*[@id="login_button"]/span')
         login.click()
+
     def search(self, manga):
         # accesing and find with xpath
         time.sleep(2)
@@ -51,6 +53,7 @@ class Mangadex:
         # Getting manga
         search = self.driver.find_element_by_xpath('//*[@id="content"]/div[3]/div/div[2]/div/div/div[2]/a')
         search.click()
+
     def download(self, path):
         time.sleep(4)
         title = random.randint(11111111, 99999999)

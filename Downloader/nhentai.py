@@ -31,6 +31,7 @@ class Downloader:
             else:
                 random = self.driver.find_element_by_xpath('/html/body/nav/div/ul[1]/li[1]/a')
                 random.click()
+
     def randomStory(self):
         random = self.driver.find_element_by_xpath('/html/body/nav/div/ul[1]/li[1]/a')
         random.click()
