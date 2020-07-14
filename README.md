@@ -9,7 +9,7 @@ You can found it here: **https://chromedriver.chromium.org.**
 ### Constructor
 
 Mangadex(self, path)
- path -> put your path where the Chrome web driver is located
+path -> put your path where the Chrome web driver is located
  
 **MacOS** 
 If you got this error "“chromedriver” cannot be opened because the developer cannot be verified". "macOS cannot verify that this app is free from malware."
