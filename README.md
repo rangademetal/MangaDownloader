@@ -16,6 +16,6 @@ If you got this error "“chromedriver” cannot be opened because the developer
 please follow: https://stackoverflow.com/questions/60362018/macos-catalinav-10-15-3-error-chromedriver-cannot-be-opened-because-the-de
 <br/><br/>
 ### Methods
-** mandatory you need to have account before to use search bar **<br/>
+**mandatory you need to have account before to use search bar**<br/>
 login(username, password)
 
