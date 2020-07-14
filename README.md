@@ -22,6 +22,6 @@ please follow: https://stackoverflow.com/questions/60362018/macos-catalinav-10-1
 |-------------------------|--------------------|-------------|
 | login(username, password)| username           | Your username account |
 |                           | password           | Your password account |
-|search(manga)      | manga | Input the name's manga you wish to read |
+| search(manga)      | manga | Input the name's manga you wish to read |
 | DownloadSelectedChapter(link, path) | link | Initialization with link the chapter |
 |                                     | path | Location where is saved |
