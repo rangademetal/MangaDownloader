@@ -10,9 +10,6 @@ class Mangadex:
     def __init__(self, path):
         self.path = path
         self.driver = webdriver.Chrome(self.path)
-
-    # getting the page
-    def getPageMangadex(self):
         self.driver.get('https://mangadex.org/')
         self.driver.maximize_window()
 
