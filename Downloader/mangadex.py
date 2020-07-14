@@ -43,16 +43,42 @@ class Mangadex:
         search = self.driver.find_element_by_xpath('//*[@id="quick_search_button"]/span')
         search.click()
 
-        # clik the first manga when the name is similar with manga parameter
-        search = self.driver.find_element_by_xpath('//*[@id="content"]/div[4]/div/div[1]/a/img')
-        search.click()
-        # getting the last page
-        search = self.driver.find_element_by_xpath('//*[@id="content"]/div[3]/nav/ul/li[4]/a/span')
+        # click the first manga when the name is similar with manga parameter
+        search = self.driver.find_element_by_xpath('//*[@id="content"]/div[4]/div[1]/div[1]/a/img')
         search.click()
 
+
         # Getting manga
-        search = self.driver.find_element_by_xpath('//*[@id="content"]/div[3]/div/div[2]/div/div/div[2]/a')
-        search.click()
+    def DownloadSelectedChapter(self, link, path):
+
+        self.driver.get(link)
+        time.sleep(2)
+        items = int(self.driver.find_element_by_xpath('//*[@id="content"]/div[1]/div/div[2]/div[8]/div[1]/span[2]').text)
+        os.chdir(path)
+        title = random.randint(11111111, 99999999)
+        os.mkdir(str(title))
+        for item in range(items):
+            download = self.driver.find_element_by_xpath('//*[@id="content"]/div[2]/div[2]/div/img').get_attribute('src')
+            urllib.request.urlretrieve(download, str(title) + '/' + str(item) + '.jpg')
+            nextpage = self.driver.find_element_by_xpath('//*[@id="content"]/div[1]/div/div[2]/div[8]/a[2]/span')
+            nextpage.click()
+            print(item)
+
+    def langselector(self):
+        time.sleep(1)
+        select = self.driver.find_element_by_xpath('//*[@id="quick_search_input"]')
+        select.click()
+        select.send_keys(' ')
+        select = self.driver.find_element_by_xpath('//*[@id="quick_search_button"]/span')
+        select.click()
+
+        #
+        select = self.driver.find_element_by_xpath('//*[@id="lang_id"]')
+        print(select.text)
+        select = self.driver.find_element_by_xpath('//*[@id="lang_id"]/option[3]')
+        select.click()
+        select = self.driver.find_element_by_xpath('/html/body')
+        select.click()
 
     def download(self, path):
         time.sleep(4)
