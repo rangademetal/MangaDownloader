@@ -18,4 +18,7 @@ Mangadex(path)
   If you got this error "“chromedriver” cannot be opened because the developer cannot be verified". "macOS cannot verify that this app is free from malware."
   please follow: https://stackoverflow.com/questions/60362018/macos-catalinav-10-15-3-error-chromedriver-cannot-be-opened-because-the-de
 
-| method | Arguments | Description
+| First Header  | Second Header | Descrition |
+| ------------- | ------------- | ---------- |
+| Content Cell  | Content Cell  | Content Cell |
+| Content Cell  | Content Cell  |
