@@ -1,9 +1,4 @@
 # Manga downloader
-An python library where you download the manga
----
-## Mangadex
-
-Class mangadex(path)
-
-    path -> The path were your chromedriver is located
----
+An python library where you can download the manga from https://mangadex.org
+--------------------------------------------------------------------
+Mangadex
