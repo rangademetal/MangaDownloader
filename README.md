@@ -8,7 +8,7 @@ An python library where you can download the manga from https://mangadex.org wit
 
 ### Constructor
  
-Mangadex(self, path) <br/>
+<font size=14>Mangadex(self, path) </font><br/>
 path -> put your path where the Chrome web driver is located
 <br/>
 **MacOS** 
