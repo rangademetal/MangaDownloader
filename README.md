@@ -20,4 +20,5 @@ please follow: https://stackoverflow.com/questions/60362018/macos-catalinav-10-1
 
 |        Name methods     |      Parameter     | Description |
 |-------------------------|--------------------|-------------|
-| login(username, password| username           | text        |
+| login(username, password)| username           | Your username account |
+                           | password           | Your password account |
