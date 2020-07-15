@@ -28,19 +28,19 @@ password = Enter your password
 ---
 **search(self, manga)**
 ```
-  manga = Enter your manga's name
+manga = Enter your manga's name
 ```
 ---
 **numberPages(self, link)**<br/>
 Return the number of pages
 ```
-  link = The link where is located your manga chapter 
+link = The link where is located your manga chapter 
 ```
 ---
 **createFolder(self, path)**<br/>
 Create the new folder with the random number names, between 11111111 and 99999999, return it as variable
 ```
-  path = Path with location where you want to be your new directory 
+path = Path with location where you want to be your new directory 
 ```
 ---
 **getLink(self, link)**<br/>
@@ -58,7 +58,14 @@ items = The number of pages
 path = The path where is your pages are saved
 ```
 ---
+##### numberPagesChapter(self, items)<br/>
+Return the whole number of pages from all Chapter as array
+
+```
+
+```
 <br/><br/>
+
 
 ## Exemple 1
 #### This exemple is used to download the single chapter
