@@ -19,7 +19,7 @@ path -> put your path where the Chrome web driver is located
 <br/><br/>
 
 ## Exemple 1
-### This exemple is used to download the single chapter
+#### This exemple is used to download the single chapter
 ```
 from Downloader import mangadex
 
@@ -33,7 +33,7 @@ downloader.quit()
 ```
 [See more here](https://github.com/rangademetal/MangaDownloader/blob/master/exemple/exemple1.py)
 ## Exemple 2
-### This one is used to download all chapters from manga
+#### This one is used to download all chapters from manga
 
 ```
 from Downloader import mangadex
