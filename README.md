@@ -30,7 +30,7 @@ please follow: https://stackoverflow.com/questions/60362018/macos-catalinav-10-1
 - downloader.downloadSelectedChapter(items=number, path=path)
 - downloader.quit()
 ```
-[a link](https://github.com/user/repo/blob/branch/other_file.md)
+[see more here](https://github.com/rangademetal/MangaDownloader/blob/master/exemple/exemple2.py)
 ## Exemple 2
 ```diff
 # This one is used to download all chapters from manga
