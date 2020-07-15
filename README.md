@@ -34,18 +34,18 @@ please follow: https://stackoverflow.com/questions/60362018/macos-catalinav-10-1
 - downloader.quit()
 ```
 ## Exemple 2
-```
-$ This one is used to download all chapters from manga
-from Downloader import mangadex
+```diff
+# This one is used to download all chapters from manga
+- from Downloader import mangadex
 
-downloader = mangadex.Mangadex(path='F:\selenium\chromedriver.exe')
-downloader.login(username='guest123qwe', password='guest123qwe')
-path = downloader.createFolder('F:\manga')
+- downloader = mangadex.Mangadex(path='F:\selenium\chromedriver.exe')
+- downloader.login(username='guest123qwe', password='guest123qwe')
+- path = downloader.createFolder('F:\manga')
 
-arr = []
-downloader.getLink('https://mangadex.org/chapter/559372/1')
-n = downloader.numberPagesChapter(items=arr)
+- arr = []
+- downloader.getLink('https://mangadex.org/chapter/559372/1')
+- n = downloader.numberPagesChapter(items=arr)
 
-downloader.getLink('https://mangadex.org/chapter/559372/1')
-downloader.downloadAllPages(arr=n, path=path)
+- downloader.getLink('https://mangadex.org/chapter/559372/1')
+- downloader.downloadAllPages(arr=n, path=path)
 ```
