@@ -1,6 +1,6 @@
 # Manga downloader ![version](https://img.shields.io/badge/version-1.1.0-blue.svg)
 
-An python library where you can download the manga from https://mangadex.org with Google Chrome web driver. 
+An python library where you can download the manga from https://mangadex.org with Google Chrome web driver. This library used Selenium
 <br/>You can found it here: **https://chromedriver.chromium.org.**
 
 
