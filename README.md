@@ -62,10 +62,20 @@ path = The path where is your pages are saved
 Return the whole number of pages from all Chapter as array
 
 ```
-
+  items = The variable where returned the numbers,mandatory is needed to be array
 ```
-<br/><br/>
+---
 
+### downloadAllPages(self, arr, path)<br/>
+Download all the chapters 
+```
+arr = Give the array when it use from numberPagesChapter(self, items) methods
+path = Your directory path
+```
+---
+### quit(self) <br/>
+Close the Web driver
+<br/><br/>
 
 ## Exemple 1
 #### This exemple is used to download the single chapter
