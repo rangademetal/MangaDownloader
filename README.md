@@ -75,7 +75,8 @@ path = Your directory path
 ---
 ### quit(self) <br/>
 Close the Web driver
-<br/><br/>
+---
+<br/>
 
 ## Exemple 1
 #### This exemple is used to download the single chapter
