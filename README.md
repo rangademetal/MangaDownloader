@@ -33,19 +33,20 @@ path -> put your path where the Chrome web driver is located
 ```
 [See more here](https://github.com/rangademetal/MangaDownloader/blob/master/exemple/exemple1.py)
 ## Exemple 2
-```diff
 # This one is used to download all chapters from manga
-- from Downloader import mangadex
 
-- downloader = mangadex.Mangadex(path='F:\selenium\chromedriver.exe')
-- downloader.login(username='guest123qwe', password='guest123qwe')
-- path = downloader.createFolder('F:\manga')
+```
+from Downloader import mangadex
 
-- arr = []
-- downloader.getLink('https://mangadex.org/chapter/559372/1')
-- n = downloader.numberPagesChapter(items=arr)
+downloader = mangadex.Mangadex(path='F:\selenium\chromedriver.exe')
+downloader.login(username='guest123qwe', password='guest123qwe')
+path = downloader.createFolder('F:\manga')
 
-- downloader.getLink('https://mangadex.org/chapter/559372/1')
-- downloader.downloadAllPages(arr=n, path=path)
+arr = []
+downloader.getLink('https://mangadex.org/chapter/559372/1')
+n = downloader.numberPagesChapter(items=arr)
+
+downloader.getLink('https://mangadex.org/chapter/559372/1')
+downloader.downloadAllPages(arr=n, path=path)
 ```
 [See more here](https://github.com/rangademetal/MangaDownloader/blob/master/exemple/exemple2.py)
