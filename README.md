@@ -73,8 +73,10 @@ arr = Give the array when it use from numberPagesChapter(self, items) methods
 path = Your directory path
 ```
 ---
-### quit(self) <br/>
+### quit(self)<br/>
 Close the Web driver
+```
+```
 ---
 <br/>
 
