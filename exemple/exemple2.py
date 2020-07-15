@@ -3,7 +3,7 @@ from Downloader import mangadex
 # Create an object
 downloader = mangadex.Mangadex(path='F:\selenium\chromedriver.exe')
 
-# create the dir and save it in path variable
+# login on website, after that, create the dir and save it in path variable
 downloader.login(username='guest123qwe', password='guest123qwe')
 path = downloader.createFolder('F:\manga')
 
