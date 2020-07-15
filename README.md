@@ -14,36 +14,36 @@ please follow: https://stackoverflow.com/questions/60362018/macos-catalinav-10-1
 ### Module's Methods
 
 **Constructor**
-**Mangadex(self, path)** 
+### Mangadex(self, path) <br/> 
 ```
 path = put your path where the Chrome web driver is located
 ```
 ---
-**login(self, username, password)**<br/>
+### login(self, username, password) <br/>
 This method I created because you need to login to use the search bar
 ```
 username = Enter your username
 password = Enter your password
 ```
 ---
-**search(self, manga)**
+### search(self, manga) <br/>
 ```
 manga = Enter your manga's name
 ```
 ---
-**numberPages(self, link)**<br/>
+### numberPages(self, link) <br/>
 Return the number of pages
 ```
 link = The link where is located your manga chapter 
 ```
 ---
-**createFolder(self, path)**<br/>
+### createFolder(self, path)<br/>
 Create the new folder with the random number names, between 11111111 and 99999999, return it as variable
 ```
 path = Path with location where you want to be your new directory 
 ```
 ---
-**getLink(self, link)**<br/>
+### getLink(self, link)<br/>
 Send you to the link addres
 
 ```
@@ -51,7 +51,7 @@ link = Get the link
 ```
 ---
 
-**downloadSelectedChapter(self, items, path)**<br/>
+### downloadSelectedChapter(self, items, path)<br/>
 If you know the number of pages and the path for the folder is created you can use this method to download only the one chapter 
 ```
 items = The number of pages 
