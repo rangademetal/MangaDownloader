@@ -58,7 +58,7 @@ items = The number of pages
 path = The path where is your pages are saved
 ```
 ---
-##### numberPagesChapter(self, items)<br/>
+#### numberPagesChapter(self, items)<br/>
 Return the whole number of pages from all Chapter as array
 
 ```
