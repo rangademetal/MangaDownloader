@@ -10,7 +10,7 @@ path = downloader.createFolder('F:\manga')
 # Creating the NULL array to save all pages of the manga chapters
 # create a new array 
 # send the browser on the link
-# the method numberPagesChapter return the page of the chapters
+# the method numberPagesChapter return the page number of the chapters
 arr = []
 downloader.getLink('https://mangadex.org/chapter/559372/1')
 n = downloader.numberPagesChapter(items=arr)
