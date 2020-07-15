@@ -29,6 +29,7 @@ please follow: https://stackoverflow.com/questions/60362018/macos-catalinav-10-1
 
 ## Exemple 1
 ```
+# This exemple is used to download the single chapter
 from Downloader import mangadex
 
 downloader = mangadex.Mangadex(path='F:\selenium\chromedriver.exe')
@@ -41,6 +42,7 @@ downloader.quit()
 ```
 ## Exemple 2
 ```
+$ This one is used to download all chapters from manga
 from Downloader import mangadex
 
 downloader = mangadex.Mangadex(path='F:\selenium\chromedriver.exe')
