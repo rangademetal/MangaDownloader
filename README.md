@@ -24,6 +24,7 @@ This method I created because you need to login to use the search bar
 username = Enter your username
 password = Enter your password
 ```
+<hr>
 **search(self, manga)**
 ```
   manga = Enter your manga's name
