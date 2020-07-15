@@ -75,8 +75,7 @@ path = Your directory path
 ---
 ### quit(self)<br/>
 Close the Web driver
-```
-```
+
 ---
 
 ## Exemple 1
