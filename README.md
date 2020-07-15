@@ -18,13 +18,14 @@ please follow: https://stackoverflow.com/questions/60362018/macos-catalinav-10-1
 ```
 path = put your path where the Chrome web driver is located
 ```
+---
 **login(self, username, password)**<br/>
 This method I created because you need to login to use the search bar
 ```
 username = Enter your username
 password = Enter your password
 ```
-<hr>
+
 **search(self, manga)**
 ```
   manga = Enter your manga's name
