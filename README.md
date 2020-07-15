@@ -62,7 +62,7 @@ path = The path where is your pages are saved
 Return the whole numbers of pages from all Chapter as array
 
 ```
-  items = The variable where returned the numbers,mandatory is needed to be array
+items = The variable where returned the numbers,mandatory is needed to be array
 ```
 ---
 
