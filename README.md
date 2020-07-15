@@ -13,9 +13,10 @@ please follow: https://stackoverflow.com/questions/60362018/macos-catalinav-10-1
 
 ### Module's Methods
 
-Mangadex(self, path) 
-
-path -> put your path where the Chrome web driver is located
+**Mangadex(self, path)** 
+```
+put your path where the Chrome web driver is located
+```
 <br/><br/>
 
 ## Exemple 1
