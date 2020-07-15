@@ -78,7 +78,6 @@ Close the Web driver
 ```
 ```
 ---
-<br/>
 
 ## Exemple 1
 #### This exemple is used to download the single chapter
