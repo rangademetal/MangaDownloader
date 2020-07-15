@@ -20,7 +20,7 @@ path = put your path where the Chrome web driver is located
 ```
 ---
 ### login(self, username, password) <br/>
-This method I created because you need to login to use the search bar
+This method is created because you need to heave an account to use the search bar
 ```
 username = Enter your username
 password = Enter your password
@@ -38,13 +38,13 @@ link = The link where is located your manga chapter
 ```
 ---
 ### createFolder(self, path)<br/>
-Create the new folder with the random number names, between 11111111 and 99999999, return it as variable
+Create the new folder with the random number names, between 11111111 and 99999999. **Return it as variable**
 ```
 path = Path with location where you want to be your new directory 
 ```
 ---
 ### getLink(self, link)<br/>
-Send you to the link addres
+Send you to the link address
 
 ```
 link = Get the link
@@ -52,14 +52,14 @@ link = Get the link
 ---
 
 ### downloadSelectedChapter(self, items, path)<br/>
-If you know the number of pages and the path for the folder is created you can use this method to download only the one chapter 
+If you know the number of pages and the path for the directory where was created you can use this method to download only the one chapter 
 ```
 items = The number of pages 
 path = The path where is your pages are saved
 ```
 ---
 ### numberPagesChapter(self, items)<br/>
-Return the whole number of pages from all Chapter as array
+Return the whole numbers of pages from all Chapter as array
 
 ```
   items = The variable where returned the numbers,mandatory is needed to be array
