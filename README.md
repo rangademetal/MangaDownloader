@@ -20,7 +20,7 @@ path = put your path where the Chrome web driver is located
 ```
 ---
 ### login(self, username, password) <br/>
-This method is created because you need to heave an account to use the search bar
+This method is created because you need to have an account to use the search bar
 ```
 username = Enter your username
 password = Enter your password
@@ -38,7 +38,7 @@ link = The link where is located your manga chapter
 ```
 ---
 ### createFolder(self, path)<br/>
-Create the new folder with the random number names, between 11111111 and 99999999. **Return it as variable**
+Create the new folder with the random numbers name, between 11111111 and 99999999. **Return it as variable**
 ```
 path = Path with location where you want to be your new directory 
 ```
